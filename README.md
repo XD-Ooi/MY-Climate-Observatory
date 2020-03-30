@@ -1,4 +1,4 @@
-# MY-Climate-Observatory :seedling:
+# MY Climate Observatory :seedling:
 
 Hi there, I am a student passionate in climate-related causes. Recently, I've been trying to find climate data for Malaysia and I noticed that it is fragmented across sites and somewhat difficult to access. Therefore, I am putting this repository to deposit climate-related datasets for Malaysia. 
 
