@@ -8,7 +8,10 @@ Then, the data is organized to ease future analysis. Specific changes are as fol
     1. Datetime variable added;
     2. Numerical API values are extracted;
     3. Dominant pollutant type are extracted
-
+This code is applied to the files:
+    1. Malaysia API 2005 - 2013;
+    2. Malaysia API 2013 - 2014;
+    3. Malaysia API 2014 - 2015.
 """
 
 import requests
@@ -66,7 +69,7 @@ def clean_data(file_name):
     #print(df_output.info())
     
     #Export output to new csv file (edit path and name as needed)
-    #df_output.to_csv(r"file_path\file_name.csv")
+    df_output.to_csv(r"file_path\file_name.csv")
     return df_output
     
 def main():
