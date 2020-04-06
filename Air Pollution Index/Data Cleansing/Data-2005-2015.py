@@ -75,6 +75,7 @@ def clean_data(file_name):
 def main():
     url = "http://www.data.gov.my/data/dataset/034a727d-1eb6-4a3d-bcd1-119b059c4840/resource/e1578b5d-8bca-41ee-827d-2f8392d0c762/download/14-bacaanipu2005-2013.csv"
     file_name = "API_2005_2013.csv"
+    #copy the other two links and processed similarly
     download_file(url, file_name)
     clean_data(file_name)
 
