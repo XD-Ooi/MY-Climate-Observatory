@@ -132,8 +132,7 @@ def clean_data(file_name):
     #print(df_extract.info())
     
     #Export output to new csv file (edit path and name as needed)
-    #df_extract.to_csv(r"file_path\file_name.csv")
-    df_extract.to_csv(r"C:\Users\Xiandi\Desktop\Python\API_2015_cleaned.csv")
+    df_extract.to_csv(r"file_path\file_name.csv")
     return df_extract
     
 def main():
