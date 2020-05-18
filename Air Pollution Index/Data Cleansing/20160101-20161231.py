@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 17 May 2020
 Author: Xiandi Ooi
@@ -148,8 +147,7 @@ def clean_data(file_name):
     #print(df_output.info())
 
     #Export output to new csv file (edit path and name as needed)
-    #df_extract.to_csv(r"file_path\file_name.csv")
-    df_output.to_csv(r"C:\Users\Xiandi\Desktop\Python\API_2016_cleaned.csv")
+    df_extract.to_csv(r"file_path\file_name.csv")
     return df_output
     
 def main():
