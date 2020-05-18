@@ -2,8 +2,7 @@
 17 May 2020
 Author: Xiandi Ooi
 
-We'll start off by learning more about the available datasets. 
-We will first download the csv file from the source. 
+We will first download the file from the source. 
 Then, the data is organized to ease future analysis. Specific changes are as follows:
     1. Column names changed to match the dominant dataframes;
     2. Site location modified to match the dominant dataframes.
