@@ -68,7 +68,7 @@ def clean_data(file_name):
                       "Kolej Vokasional Muar, Muar": ("Muar", "Johor"),
                       "MRSM Batu Pahat, Batu Pahat": ("Batu Pahat", "Johor"),
                       "Kolej Kejururawatan Kluang, Kluang": ("Kluang", "Johor"),
-                      "Institut Perguruan Temenggong Ibrahim, Larkin": ("Larkin Lama", "Johor"),
+                      "Institut Perguruan Temenggong Ibrahim, Larkin": ("Larkin", "Johor"),
                       "Sek. Men. Pasir Gudang 2, Pasir Gudang": ("Pasir Gudang", "Johor"),
                       "Sek. Keb. Lepau, Pengerang": ("Pengerang", "Johor"),
                       "Sek. Men. Agama Bandar Penawar, Kota Tinggi": ("Kota Tinggi", "Johor")}
