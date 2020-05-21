@@ -71,8 +71,7 @@ def clean_data(file_name):
     #print(df_final.info())
     
     #Export output to new csv file (edit path and name as needed)
-    #df_output.to_csv(r"file_path\file_name.csv")
-    df_final.to_csv(r"C:\Users\Xiandi\Desktop\Python\API_Kelantan_2018_cleaned.csv")
+    df_output.to_csv(r"file_path\file_name.csv")
     return df_final
     
 def main():
