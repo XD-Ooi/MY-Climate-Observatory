@@ -43,7 +43,7 @@ def clean_data(file_name):
     df_input = pd.read_excel(file_name, skiprows=2)
     
     #Checking the basic information about the dataframe (optional)
-    #print(df_output.info()) 
+    #print(df_input.info()) 
     #print(df_input.describe())
     
     #Selecting columns
