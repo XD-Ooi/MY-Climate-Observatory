@@ -43,7 +43,7 @@ def clean_data(file_name):
     df_input = pd.read_csv(file_name, skiprows=3)
     
     #Checking the basic information about the dataframe (optional)
-    #print(df_output.info()) 
+    #print(df_input.info()) 
     #print(df_input.describe())
     
     #Selecting columns
