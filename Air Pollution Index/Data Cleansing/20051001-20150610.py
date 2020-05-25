@@ -64,7 +64,7 @@ def clean_data(file_name):
     #Converting the date and time into datetime
     df_output["Datetime"] = df_output[["Date","Time"]].agg("-".join, axis = 1)
     df_output["Datetime"] = pd.to_datetime(df_output["Datetime"], format = "%d/%m/%Y-%I:%M%p")
-
+    df_output = df_output.drop(columns = ["Date", "Time", "API"])
     #Checking the basic information about the final dataframe (optional)
     #print(df_output.info())
     
