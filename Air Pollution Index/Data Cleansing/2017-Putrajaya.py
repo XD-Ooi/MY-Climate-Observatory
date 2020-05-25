@@ -68,7 +68,7 @@ def clean_data(file_name):
     #Converting Datetime to datetime object
     df_final["Datetime"] = pd.to_datetime(df_final["Datetime"])
     
-    df_final = df_final.drop(columns = ["Station", "Site"])  
+    df_final = df_final.drop(columns = ["Station", "Site", "API"])  
     #Checking the basic information about the final dataframe (optional)
     #print(df_final.info())
     
