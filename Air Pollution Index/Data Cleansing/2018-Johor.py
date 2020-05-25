@@ -74,7 +74,7 @@ def clean_data(file_name):
     df_final["API_Values"] = df_final["API"].str.extract("(\d+)", expand = False)
     df_final["API_Values"] = pd.to_numeric(df_final["API_Values"], errors="coerce").fillna(0).astype(int)
     
-    df_final = df_final.drop(columns = ["Station"])  
+    df_final = df_final.drop(columns = ["Station", "API"])  
     #Checking the basic information about the final dataframe (optional)
     #print(df_final.info())
     
