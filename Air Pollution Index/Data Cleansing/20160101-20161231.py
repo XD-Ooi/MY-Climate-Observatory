@@ -140,7 +140,7 @@ def clean_data(file_name):
                        "WILAYAH PERSEKUTUAN": "Wilayah Persekutuan"}
     df_output["State"] = df_output["Negeri"].map(state_directory)
 
-    df_output = df_output.drop(columns = ["Lokasi", "Negeri"])    
+    df_output = df_output.drop(columns = ["Date", "Time", "Lokasi", "Negeri"])    
 
     #Checking the basic information about the final dataframe (optional)
     #print(df_output.info())
