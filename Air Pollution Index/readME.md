@@ -25,6 +25,7 @@ The original links of the datasets are as listed below (we tried to keep the tit
 * [2017 and 2018 Hourly API for Melaka](http://www.data.gov.my/data/ms_MY/dataset/bacaan-indeks-pencemar-udara-ipu-negeri-melaka-bagi-tahun-2017)
 * [2017 and 2018 Hourly API for Negeri Sembilan](http://www.data.gov.my/data/ms_MY/dataset/bacaan-indeks-pencemar-udara-ipu-negeri-sembilan-bagi-tahun-2017)
 * [2017 and 2018 Hourly API for Pahang](http://www.data.gov.my/data/ms_MY/dataset/bacaan-indeks-pencemar-udara-ipu-negeri-pahang-bagi-tahun-2017)
+* [2017 and 2018 Hourly API for Perak](http://www.data.gov.my/data/ms_MY/dataset/bacaan-indeks-pencemar-udara-ipu-negeri-perak-bagi-tahun-2017)
 * [2017 and 2018 Hourly API for Perlis](http://www.data.gov.my/data/ms_MY/dataset/bacaan-indeks-pencemar-udara-ipu-negeri-perlis-bagi-tahun-2017)
 * [2017 and 2018 Hourly API for Pulau Pinang](http://www.data.gov.my/data/ms_MY/dataset/bacaan-indeks-pencemar-udara-ipu-negeri-pulau-pinang-bagi-tahun-2017)
 * [2017 and 2018 Hourly API for Sabah](http://www.data.gov.my/data/ms_MY/dataset/bacaan-indeks-pencemar-udara-ipu-negeri-sabah-bagi-tahun-2017)
