@@ -57,17 +57,20 @@ def clean_data(file_name):
                                       "Seremban, NEGERI SEMBILAN",
                                       "Port Dickson, NEGERI SEMBILAN"],
                         var_name="Station", value_name="API")
-    temp = df_final["Station"].str.split(", ", n = 1, expand = True) 
-    df_final['Area'] = temp[0] 
-    df_final["State"] = temp[1].str.capitalize() 
-    
+    area_directory = {"Nilai, NEGERI SEMBILAN": ("Nilai", "Negeri Sembilan"),
+                      "Seremban, NEGERI SEMBILAN": ("Seremban", "Negeri Sembilan"),
+                      "Port Dickson, NEGERI SEMBILAN": ("Port Dickson", "Negeri Sembilan")}
+    #There are some new stations added, the area are displayed in a similar manner as previous datasets
+    df_final["Site"] = df_final["Station"].map(area_directory)
+    df_final[["Area", "State"]] = pd.DataFrame(df_final["Site"].tolist(), index= df_final.index) 
+        
     #Separating each API values into values and its dominant pollutant
     df_final["API"].astype(str)
     df_final["Dominant"] = df_final["API"].str.extract("(\D+)", expand = False)
     df_final["API_Values"] = df_final["API"].str.extract("(\d+)", expand = False)
     df_final["API_Values"] = pd.to_numeric(df_final["API_Values"], errors="coerce").fillna(0).astype(int)
     
-    df_final = df_final.drop(columns = ["Station", "API"])  
+    df_final = df_final.drop(columns = ["Station", "Site", "API"])  
     #Checking the basic information about the final dataframe (optional)
     #print(df_final.info())
     
