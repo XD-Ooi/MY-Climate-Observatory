@@ -51,5 +51,13 @@ df_total = pd.concat([df1, df2, df3, df4, df5, df6, df7, df8, df9, df10,
                       df11, df12, df13, df14, df15, df16, df17, df18, df19, df20,
                       df21, df22, df23, df24, df25, df26, df27, df28, df29, df30,
                       df31, df32, df33, df34])
-df_total = df_total.drop(columns = ["Unnamed: 0"]) 
+df_total = df_total.drop(columns = ["Unnamed: 0"])
+
+#Fixing some comma space issue
+df_total["Area"] = df_total["Area"].str.replace("Batu Muda,Kuala Lumpur", 
+                                                "Batu Muda, Kuala Lumpur")
+df_total["Area"] = df_total["Area"].str.replace("Cheras,Kuala Lumpur", 
+                                                "Cheras, Kuala Lumpur")
+
+#Output our file csv file
 df_total.to_csv(r"file_path\aggregateAPI.csv")
