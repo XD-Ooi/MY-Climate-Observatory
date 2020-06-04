@@ -5,7 +5,7 @@ The Air Pollution Index (API) indicates the air quality status of a particular a
 
 For more details on the calculation of Malaysia's API, check this out: [AIR POLLUTANT INDEX (API) CALCULATION](http://apims.doe.gov.my/public_v2/pdf/API_Calculation.pdf)
 
-The organized csv file of all the available API data can be downloaded from this folder under the name **aggregate-API.csv**. This csv contains Malaysia's API data from 2005 - 2019 in all 14 states & territories (based on availability of data). For those who would like to get their hands dirty on some data analysis, feel free to use this dataset!
+The organized csv file of all the available API data can be downloaded from this folder under the name **Aggregate-API.csv**. This csv contains Malaysia's API data from 2005 - 2019 in all 14 states & territories (based on availability of data). For those who would like to get their hands dirty on some data analysis, feel free to use this dataset!
 
 Our team is currently working on developing an interactive dashboard so that everyone can explore this data online. Stay tune!
 
