@@ -60,7 +60,7 @@ def clean_data(file_name):
                                      "Kota Bharu, KELANTAN"],
                        var_name="Station", value_name="API")
     area_directory = {"Tanah Merah, KELANTAN": ("Tanah Merah", "Kelantan"),
-                      "Kota Bharu, KELANTAN": ("SMU Tanjung Chat, Kota Bharu", "Kelantan")}
+                      "Kota Bharu, KELANTAN": ("SMK Tanjung Chat, Kota Bharu", "Kelantan")}
     #There are some new stations added, the area are displayed in a similar manner as previous datasets
     df_final["Site"] = df_final["Station"].map(area_directory)
     df_final[["Area", "State"]] = pd.DataFrame(df_final["Site"].tolist(), index= df_final.index)
