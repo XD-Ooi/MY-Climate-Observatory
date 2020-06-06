@@ -7,6 +7,9 @@ Then, the data is organized to ease future analysis. Specific changes are as fol
     1. Datetime variable added;
     2. Numerical API values are extracted;
     3. Dominant pollutant type are extracted
+    
+6 Jun 2020
+version update: Area value "Kota Bharu" changed to "SMK Tanjung Chat, Kota Bharu"
 
 """
 
@@ -56,16 +59,19 @@ def clean_data(file_name):
                        value_vars = ["Tanah Merah, KELANTAN",
                                      "Kota Bharu, KELANTAN"],
                        var_name="Station", value_name="API")
-    temp = df_final["Station"].str.split(", ", n = 1, expand = True) 
-    df_final['Area'] = temp[0] 
-    df_final["State"] = temp[1].str.capitalize() 
+    area_directory = {"Tanah Merah, KELANTAN": ("Tanah Merah", "Kelantan"),
+                      "Kota Bharu, KELANTAN": ("SMU Tanjung Chat, Kota Bharu", "Kelantan")}
+    #There are some new stations added, the area are displayed in a similar manner as previous datasets
+    df_final["Site"] = df_final["Station"].map(area_directory)
+    df_final[["Area", "State"]] = pd.DataFrame(df_final["Site"].tolist(), index= df_final.index)
+    
     
     #Note that there is no dominant pollutant stated for this set of data
     df_final["API"] = df_final["API"].astype(str)
     df_final["API_Values"] = df_final["API"].str.extract("(\d+)", expand = False)
     df_final["API_Values"] = pd.to_numeric(df_final["API_Values"], errors="coerce").fillna(0).astype(int)
     
-    df_final = df_final.drop(columns = ["Station", "API"])  
+    df_final = df_final.drop(columns = ["Station", "Site", "API"])  
     #Checking the basic information about the final dataframe (optional)
     #print(df_final.info())
     
