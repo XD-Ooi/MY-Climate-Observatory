@@ -2,11 +2,9 @@
 
 Hi there, I am a student passionate in climate-related causes. Recently, I've been trying to find climate data for Malaysia and I noticed that it is fragmented across sites and somewhat difficult to access. Therefore, I am putting this repository to deposit climate-related datasets for Malaysia. 
 
-Current dataset in work: Malaysian Air Pollution Index (2005 - 2019)
+**Current dataset in work:** Malaysian Air Pollution Index (2005 - 2019)
 
-Current progress: The dataset is ready for use. 
-
-We are currently developing an interactive dashboard so that everyone can have fun!
+Current progress: The dataset is ready for use. We are currently developing an interactive dashboard so that everyone can have fun!
 
 Please do reach out if you know where we could collect historical data on Malaysia's annual/monthly average temperature, annual/monthly average rainfall, biodiversity, pollutants concentration, etc. (more to come!)
 
