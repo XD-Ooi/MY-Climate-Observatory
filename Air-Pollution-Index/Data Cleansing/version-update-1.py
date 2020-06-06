@@ -20,7 +20,6 @@ df["Area"] = df["Area"].str.replace("Cheras,Kuala Lumpur",
 
 #The original API values for nan is 0, we've decided to change it back to nan
 df["API_Values"] = df["API_Values"].replace(0, np.nan)
-print(df["API_Values"].unique())
 
 #State value error for Balok Baru, Kuantan data
 df["State"] = df["State"].str.replace("Kuantan", "Pahang")
