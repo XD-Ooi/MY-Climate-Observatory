@@ -24,8 +24,9 @@ df["API_Values"] = df["API_Values"].replace(0, np.nan)
 #State value error for Balok Baru, Kuantan data
 df["State"] = df["State"].str.replace("Kuantan", "Pahang")
 
-#Area value error for Tanah Merah, Kelantan
+#Area value errors
 df["Area"] = df["Area"].str.replace("Tanah Merah ", "Tanah Merah")
+df["Area"] = df["Area"].replace("Kota Bharu", "SMK Tanjung Chat, Kota Bharu", regex = False)
 
 #We will create new dataframes for interim period where there's no data
 #Missing nan values for Putrajaya between 25-12-2006 to 30-01-2007
