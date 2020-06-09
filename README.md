@@ -4,7 +4,7 @@ Hi there, I am a student passionate in climate-related causes. Recently, I've be
 
 **Current dataset in work:** Malaysian Air Pollution Index (2005 - 2019)
 
-Current progress: The dataset is ready for use. We are currently developing an interactive dashboard so that everyone can have fun!
+Current progress: The prototype of our interactive dashboard is up! We are still developing our interactive dashboard so stay tuned for more!
 
 Please do reach out if you know where we could collect historical data on Malaysia's annual/monthly average temperature, annual/monthly average rainfall, biodiversity, pollutants concentration, etc. (more to come!)
 
