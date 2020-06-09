@@ -60,5 +60,5 @@ df_cheras = cheras.join(cheras_datetime.rename("Datetime"))
 #Joining the additional dataframe to our original dateframe
 df_update = pd.concat([df, df_putrajaya, df_kb, df_cheras])
 
-#Output our file csv file
-df_update.to_csv(r"filepath\Aggregate-API.csv")
+#Output our file csv file with ; as the delimiter
+df_update.to_csv(r"filepath\Aggregate-API.csv", sep = ";")
