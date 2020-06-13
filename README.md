@@ -5,10 +5,10 @@ MY Climate Observatory is a non-profit platform working towards accessible clima
 
 Current progress: The prototype of our interactive dashboard is up! We are still developing our interactive dashboard so stay tuned for more!
 
-Please do reach out to us if you know where we could collect historical data on Malaysia's annual/monthly average temperature, annual/monthly average rainfall, biodiversity, pollutants concentration, etc. (more to come!)
+We are an open source data collection project. Please do reach out to us if you know where we could collect historical data on Malaysia's annual/monthly average temperature, annual/monthly average rainfall, biodiversity, pollutants concentration, etc. (more to come!)
 
 ## Motivation
-I am a student passionate in climate-related causes. Recently, I've been trying to find climate data for Malaysia and I noticed that it is fragmented across sites and somewhat difficult to access. Therefore, I am putting this repository to deposit climate-related datasets for Malaysia. 
+This project was initiated by a student passionate in climate-related causes who found a gap in accessing Malaysia's climate data. It is fragmented across sites and somewhat difficult to access.
 
 ## License
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
