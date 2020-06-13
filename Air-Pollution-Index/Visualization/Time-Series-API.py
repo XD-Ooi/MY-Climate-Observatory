@@ -12,10 +12,9 @@ import plotly.graph_objects as go
 from plotly.offline import plot
 
 #the data can be retrived from our github repo
-#df = pd.read_csv("https://media.githubusercontent.com/media/XD-Ooi/MY-Climate-Observatory/master/Air-Pollution-Index/aggregate-API.csv")
-df = pd.read_csv(r"C:\Users\Xiandi\Desktop\Python\aggregateAPI.csv")
+df = pd.read_csv("https://www.dropbox.com/s/84hol3lm6tdehe7/Aggregate-API.csv?dl=1", sep = ";")
 
-selected_area = "Sandakan"
+selected_area = "Sandakan" #any area
 df_temp = df.loc[(df.Area == selected_area),
                  ["Datetime", "API_Values"]]
 
