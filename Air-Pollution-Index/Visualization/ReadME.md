@@ -5,3 +5,5 @@ We will be sharing the code for each individual dashboard in this folder. Our vi
 Current available visuals:
 * Single Area API Time Series Display
 * Single State, Multiple Areas API Time Series Comparison
+* Frequency of Detected Pollutants
+
