@@ -12,15 +12,14 @@ import plotly.graph_objects as go
 
 df = pd.read_csv(r"C:\Users\Xiandi\Desktop\Python\Aggregate-API.csv", sep = ";")
 
-# Data wrangling for this particular visual
-df_update = df.set_index(pd.DatetimeIndex(df["Datetime"]))
-df_update.drop(df_update.columns[4], axis = 1, inplace = True)
-
 # Make the selection
 selected_area = "Sandakan"
+df_select = df.loc[(df.Area == selected_area),
+                   ["Area", "Dominant", "Datetime"]]
 
-df_temp = df_update.loc[(df_update.Area == selected_area),
-                        ["Area", "Dominant"]]
+# Data wrangling for this particular visual
+df_update = df_select.set_index(pd.DatetimeIndex(df_select["Datetime"]))
+df_update.drop(df_update.columns[2], axis = 1, inplace = True)
 
 # Wrangling 
 df_group_time = df_update.groupby(pd.Grouper(freq = "Q")).size().reset_index(name = "Total")
