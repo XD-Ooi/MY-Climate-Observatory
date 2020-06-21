@@ -1,9 +1,9 @@
 # MY Climate Observatory :seedling:
 MY Climate Observatory is a non-profit platform working towards accessible climate data and education. We aim to bridge the data gap in climate education by putting available climate-related data together, and sharing them in an interactive manner. This repository is set up to share the available climate data that we have collected, including the scripts that we used to clean the data so that the data manipulation process can be reproduced easily. 
 
-**Current dataset in work:** Malaysian Air Pollution Index (2005 - 2019)
+The prototype of our interactive dashboard is up! We are still developing our interactive dashboard so stay tuned for more!
 
-Current progress: The prototype of our interactive dashboard is up! We are still developing our interactive dashboard so stay tuned for more!
+**Current dataset in work:** Malaysian Environment-related Departments Social Network Analysis
 
 We are an open source data collection project. Please do reach out to us if you know where we could collect historical data on Malaysia's annual/monthly average temperature, annual/monthly average rainfall, biodiversity, pollutants concentration, etc. (more to come!)
 
