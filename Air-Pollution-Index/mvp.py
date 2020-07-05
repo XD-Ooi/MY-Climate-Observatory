@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 2 June 2020
 Author: Xiandi Ooi
