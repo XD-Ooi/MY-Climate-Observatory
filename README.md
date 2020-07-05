@@ -15,3 +15,6 @@ This project was initiated by a student passionate in climate-related causes who
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 You can copy and adapt this material for your purposes, as long as you give appropriate credit and share the work yourself under same terms. 
+
+## Update on 5 Jul 2020
+This repo will be archived and all its content will be duplicated [here](https://github.com/MY-Climate-Observatory/myco-data) at MY Climate Observatory's organization Github account.
